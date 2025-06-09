@@ -1,39 +1,47 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Animation</title>
-  <link href="sampleCSS.css" rel="stylesheet" type="text/css" />
-	<link href="favicon.png" rel="icon" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tasfia's Game Dev Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="favicon.png" type="image/png"/>
 </head>
 <body>
-  <div class="banner">
-		Thomas A. Edison CTE HS
-		<img src="avatar.png" id="logo">
-		<h1>Web Development</h1>
-		<h1>Programming and Prototyping</h1>
-		<h1>School Year 2023-24</h1>
-		<h1>YOUR NAME</h1>
-		
-	</div>
-	<div class="container">
-		<iframe frameborder="0" width="50%" height="50%" 
-        src="https://py3.codeskulptor.org/#user309_frkCXMOiTz_0.py"></iframe>
-		<iframe frameborder="0" width="100%" height="900px" 
-        src="https://py3.codeskulptor.org/#user308_1gK1mPolQKk7FMj.py"></iframe>
-		https://py3.codeskulptor.org/#user309_frkCXMOiTz_0.py
-	</div>
-	<div class="menu">MENU
-        <a href="">Home</a>
-	<a href="">CFUs</a>
-	<a href="">Labs</a>
-	<a href="">Projects</a>
-	
-	<a href="">About</a>
-	<a href="">Earsketch</a>
+  <header class="banner">
+    <img src="images/avatar.png" alt="Logo" class="logo">
+    <h1>Tasfia Roponti</h1>
+    <p>Thomas A. Edison CTE High School</p>
+    <p>Game Design & Programming | 2023-2024</p>
+  </header>
 
-	</div>
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#cfus">CFUs</a>
+    <a href="#labs">Labs</a>
+    <a href="#about">About</a>
+    <a href="#reflection">Reflection</a>
+  </nav>
 
+  <section class="intro">
+    <h2>Career Goals</h2>
+    <p>I aim to become a game designer and developer using tools like Unity, Visual Studio, and GitHub. My portfolio shows my journey in learning programming, design, and creativity.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Games</h2>
+    <p>Below are samples of the games I’ve created using CodeSkulptor:</p>
+
+    <div class="game-grid">
+      <iframe src="https://py3.codeskulptor.org/#user309_frkCXMOiTz_0.py" frameborder="0"></iframe>
+      <iframe src="https://py3.codeskulptor.org/#user308_1gK1mPolQKk7FMj.py" frameborder="0"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 Tasfia Roponti | Game Development Portfolio</p>
+  </footer>
 </body>
-
 </html>
+
